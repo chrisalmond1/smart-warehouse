@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/smart-warehouse/static/css/main.36ffff30.css",
+    "main.js": "/smart-warehouse/static/js/main.ac4fed74.js",
+    "static/js/488.e54f502f.chunk.js": "/smart-warehouse/static/js/488.e54f502f.chunk.js",
+    "index.html": "/smart-warehouse/index.html",
+    "main.36ffff30.css.map": "/smart-warehouse/static/css/main.36ffff30.css.map",
+    "main.ac4fed74.js.map": "/smart-warehouse/static/js/main.ac4fed74.js.map",
+    "488.e54f502f.chunk.js.map": "/smart-warehouse/static/js/488.e54f502f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36ffff30.css",
+    "static/js/main.ac4fed74.js"
+  ]
+}
