@@ -14,13 +14,16 @@ function App() {
   const handleShowSidebar = () => setShowSidebar(!showSidebar);
   
   return (
-    <Router>
+    <Router basename="/smart-warehouse">
       <div>
         <Navbar bg="light" expand="lg" className="mb-3">
           <Button variant="primary" onClick={handleShowSidebar} className="d-lg-none">
             ☰
           </Button>
-          <Navbar.Brand href="/">Warehouse Management</Navbar.Brand>
+          <Link className="nav-link" to="/">
+            <Navbar.Brand Link="/">Warehouse Management</Navbar.Brand>
+          </Link>
+          
           {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
           {/* <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto d-none d-lg-flex">
